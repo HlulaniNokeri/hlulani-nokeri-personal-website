@@ -1,0 +1,15 @@
+body {
+  font-size: 14px;
+}
+.navBtn {
+  padding: 0.5rem 1rem;
+  background: white;
+  color: black;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.navBtn:hover {
+  background: black;
+  color: white;
+  border-color: white;
+}

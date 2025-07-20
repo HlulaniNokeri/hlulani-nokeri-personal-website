@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hlulani Nokeri Portfolio" />
+  <meta name="author" content="Hlulani Nokeri" />
+  <title>Hlulani Nokeri</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-white text-black font-sans">
+  <div class="w-full bg-blue-600 text-white p-6 flex justify-between items-center shadow">
+    <h1 class="text-2xl font-bold">Hlulani Nokeri</h1>
+    <nav class="space-x-4">
+      <button class="navBtn" data-page="bio">Bio</button>
+      <button class="navBtn" data-page="experience">Experience</button>
+      <button class="navBtn" data-page="education">Education</button>
+      <button class="navBtn" data-page="skills">Skills</button>
+      <button class="navBtn" data-page="contact">Contact</button>
+    </nav>
+  </div>
+
+  <div class="p-6 max-w-4xl mx-auto space-y-6">
+    <div class="text-center">
+      <img src="images/profile.png" alt="Hlulani" class="w-40 h-40 mx-auto rounded-full border border-black" />
+      <h2 class="text-xl font-semibold mt-4">IT Support | Developer | Data Scientist</h2>
+    </div>
+    <div id="pageContent" class="p-4 border border-gray-300 rounded bg-gray-50"></div>
+  </div>
+
+  <footer class="text-center text-xs text-gray-600 py-6">
+    &copy; 2025 Hlulani Nokeri. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
